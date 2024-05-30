@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.search-bar-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-bar-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: none;
+}
+
+.search-bar-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #007bff;
+  color: white;
+  box-shadow: none;
+}
+
+.search-bar-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.pagination-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.card-custom {
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  height: 200px;
+  width: 100%;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-img-top {
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .search-bar-button,
+  .toggle-audio-button {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.row-custom {
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.container-custom {
+  max-width: 100%;
+  padding: 0 20px;
+}
+
